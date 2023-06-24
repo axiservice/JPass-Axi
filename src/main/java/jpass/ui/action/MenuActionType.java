@@ -131,6 +131,7 @@ public enum MenuActionType {
             sb.append("<b>" + JPassFrame.PROGRAM_NAME + "</b>\n");
             sb.append("version: " + JPassFrame.PROGRAM_VERSION + "\n");
             sb.append("Copyright &copy; 2009-2023 G\u00e1bor Bata\n");
+            sb.append("Axi Feature Extension " + JPassFrame.AXI_PROGRAM_VERSION + "\n");
             sb.append("\n");
             sb.append("Java version: ").append(System.getProperties().getProperty("java.version")).append("\n");
             sb.append(System.getProperties().getProperty("java.vendor"));
